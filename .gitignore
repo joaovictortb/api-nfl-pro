@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (nunca commitar .env)
+.env
+.env.local
+.env.*.local
+
+# Build / output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs e cache
+*.log
+npm-debug.log*
+.npm
+.cache
+
+# IDE / SO
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
