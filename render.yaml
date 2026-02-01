@@ -1,0 +1,8 @@
+# Render.com – build e start para API Node (TypeScript)
+# Garante que o TypeScript seja compilado antes de rodar.
+services:
+  - type: web
+    name: api-nfl-pro
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: node dist/server.js
